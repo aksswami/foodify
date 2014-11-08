@@ -1,0 +1,36 @@
+{
+    "name": "Foodify",
+    "version": "1.0.0",
+    "description": "Creating a completely new fooding experience. REST Client",
+    "homepage": "",
+    "repository": "",
+    "bugs": {
+        "url": "",
+        "email": "aks.swami@live.com"
+    },
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+  		"start": "node server.js"
+    },
+    "keywords": [
+        "baucis",
+        "rest",
+        "api",
+        "express",
+        "mongo",
+        "mongodb",
+        "mongoose"
+    ],
+    "dependencies": {
+        "baucis": "~0.15.1",
+        "express": "~3.4.6",
+        "mongoose": "~3.8.1",
+        "baucis-swagger": "~0.2.5"
+    },
+    "engines": {
+    	"node": "0.10.x"
+  	},
+    "author": "Amit Kumar Swami",
+    "license": "MIT"
+}
